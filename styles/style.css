@@ -1,0 +1,78 @@
+html {
+    font-size: 100%;
+    background-color: #fff;
+    color: #000;
+}
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 10px;
+    padding: 20px;
+}
+
+header{
+    background-color: rgb(235, 216, 216);
+    border: 1px solid pink;
+    color: black;
+    font-size: 1rem;
+    height: 150px;
+}
+header img {
+    height: 60%;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    background-color: rgb(243, 235, 212);
+    color: #0000;
+    border: 1px solid rgb(243, 235, 212);
+}
+
+nav ul li a {
+    background-color: rgb(243, 235, 212);
+    color: black;
+    text-transform: none;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color:rgb(235, 216, 216);
+    color: rgb(104, 104, 139);
+    font-weight: bold;
+}
+
+.wrapper {
+    background-color:rgb(209, 221, 244);
+}
+
+figcaption {
+    text-align: left;
+    font-size: .8rem;
+}
+
+figcaption a {
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+figcaption a:hover {
+    background-color:rgb(202, 216, 241);
+    color: rgb(6, 34, 73);
+    font-weight: bold;
+}
+
+#secondary {
+    background-color:rgb(217, 244, 224);
+    color: black;
+}
+
+footer {
+    background-color: rgb(246, 228, 246);
+    color: black;
+}
+
