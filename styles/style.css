@@ -26,6 +26,35 @@ header h1 {
     margin-left: 20px;
 }
 
+header nav ul {
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    justify-items: center;
+    list-style-type: none;
+}
+
+header nav ul li {
+    background-color: rgb(235, 216, 216);
+    color: #0000;
+    border: rgb(235, 216, 216);
+    padding: 0rem 1rem 0rem 1rem;
+    font-weight: bold;
+}
+
+header nav ul li a {
+    background-color: rgb(235, 216, 216);
+    color: black;
+    text-transform: none;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    background-color:rgb(235, 216, 216);
+    color: rgb(104, 104, 139);
+    font-weight: bold;
+}
+
 header a {
     height: 100px;
     text-align: right;
@@ -37,7 +66,7 @@ header img {
 }
 
 nav {
-    padding: 1rem 0 1rem 0;
+    padding: 0rem 0 0rem 0;
 }
 
 nav ul {
