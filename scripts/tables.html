@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HTML and CSS Table Demo</title>
+        <style>
+            caption {
+                font-size: 1.5rem;
+                text-transform: uppercase;
+                text-shadow: 3px 3px 4px white;
+                padding: 5px;
+                background-color: rgb(193, 33, 147);
+                color: white;
+                border-radius: 25px;
+            }
+
+            thead, tfoot {
+                background-color: #9859eb;
+                color: white;
+                font-weight: bold;
+            }
+
+            th, td {
+                padding: 5px 10px;
+            }
+
+            .center {
+                text-align: center;
+            }
+
+            .rowhover:hover {
+                background-color: rgb(147, 191, 228);
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Table</h1>
+
+        <table>
+            <caption>Selena Gomez or Haliey Baldwin</caption>
+            <thead>
+                <tr>
+                    <th colspan="5">Attitude</th>
+                </tr>
+                <tr>
+                    <th>Person</th>
+                    <th>For</th>
+                    <th>Undecided</th>
+                    <th>Against</th>
+                    <th>Row Marginal</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="rowhover">
+                    <td>Selena</td>
+                    <td class="center">200</td>
+                    <td class="center">0</td>
+                    <td class="center">0</td>
+                    <td class="center">200</td>
+                </tr>
+                <tr class="rowhover">
+                    <td>Haliey</td>
+                    <td class="center">0</td>
+                    <td class="center">0</td>
+                    <td class="center">200</td>
+                    <td class="center">200</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Column Marginal</td>
+                    <td class="center">200</td>
+                    <td class="center">0</td>
+                    <td class="center">200</td>
+                    <td class="center">400</td>
+                </tr>
+            </tfoot>
+        </table>
+
+    </body>
+</html>
