@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="test site for web2023">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Nucleus</title>
+    <style> 
+      html {
+        font-size: 100%;
+      }
+
+      nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+      }
+
+      nav ul li {
+        list-style-type: none;
+        padding: 25px;
+        border: 5px solid black;
+      }
+
+      article {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        max-width: 1200px;
+        margin: 0 auto;
+        gap: 10px;
+      }
+
+      .card {
+        border: 1px solid grey;
+        padding: 2rem;
+      }
+    </style>
+  </head>
+
+
+  <body>
+ 
+    <header>
+      <h1 id="title">Nucleus</h1>
+      <nav>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+         <li><a href="start.html">Start Here</a></li>
+         <li><a href="courses.html">Courses</a></li>
+         <li><a href="about.html">About Us</a></li>
+        </ul>
+       </nav>
+      <a href="index.html">
+        <img src="images/nucleuslogo.png" alt="Nucleus Logo"
+          width="100"
+          height="100" >
+      </a>
+    </header>
+
+    <nav>
+      <ul>
+        <li>Link 1</li>
+        <li>Link 2</li>
+        <li>Link 3</li>
+        <li>Link 4</li>
+      </ul>
+    </nav>
+
+    <article>
+      <section class="card">
+        <h2>Title 1</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+          sed do eiusmod tempor incididunt ut labore et dolore magna 
+          aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+          ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </section>
+
+      <section class="card">
+        <h2>Title 2</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+          sed do eiusmod tempor incididunt ut labore et dolore magna 
+          aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+          ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </section>
+
+      <section class="card">
+        <h2>Title 3</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+          sed do eiusmod tempor incididunt ut labore et dolore magna 
+          aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+          ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </section>
+
+      <section class="card">
+        <h2>Title 4</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+          sed do eiusmod tempor incididunt ut labore et dolore magna 
+          aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+          ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </section>
+
+      <section class="card">
+        <h2>Title 5</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+          sed do eiusmod tempor incididunt ut labore et dolore magna 
+          aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+          ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </section>
+
+      <section class="card">
+        <h2>Title 6</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+          sed do eiusmod tempor incididunt ut labore et dolore magna 
+          aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+          ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </section>
+    </article>
+
+
+    <footer>
+
+        <address>
+          <p>555 Main St.<br>
+            Lexington, KY 40506<br>
+            555-123-4567<br>
+            ceo@nucleus.nu<br>
+            @nucleus</p>
+        </address>
+  
+  
+      <form action="#" method="post" class="basicform">
+          <label for="name">Enter your name: </label>
+          <input type="text" name="bio" id="name" required>
+          <br>
+          <label for="email">Enter your email address: </label>
+          <input type="text" name="bio" id="email" required>
+          <br>
+          <input type="submit" value="Subscribe to Email!">
+      </form>
+      <hr>
+  
+      </footer>
+  
+     
+    </body>
+  </html>
